@@ -1,0 +1,4 @@
+@Library('MyLibrary@main') _ 
+myjenkinsshared{
+
+}
