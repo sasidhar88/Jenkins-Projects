@@ -1,6 +1,6 @@
 
 def name = "myName"
-Pipeline{
+pipeline{
    agent any
   stages{
      stage("current build number stage"){
