@@ -1,9 +1,12 @@
+
+def name = "myName"
 Pipeline{
    agent any
   stages{
      stage("current build number stage"){
        steps{
         echo "this is the current build number ${currentBuild.number}"
+        println "${name}" 
 }
 }
 }
